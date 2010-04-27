@@ -11,8 +11,6 @@
 
 @implementation HMServerApplication
 
-static JSCocoa *jsEngine=nil;
-
 -(id)init
 {
 	if ((self=[super init]))
@@ -45,14 +43,8 @@ static JSCocoa *jsEngine=nil;
 
 - (void)dealloc {
 	[httpServer release];
-	[jsEngine release];
 	
    [super dealloc];
-}
-
-+(JSCocoa *)jsEngine
-{
-	return [JSCocoa sharedController];
 }
 
 @end

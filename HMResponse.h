@@ -13,11 +13,14 @@
 {
 	NSObject<HTTPResponse> *response;
 	NSMutableData *responseBody;
+	NSMutableDictionary *headers;
 }
 
 @property (readonly) NSMutableData *responseBody;
+@property (readonly) NSMutableDictionary *headers;
 
 -(id)initWithResponse:(NSObject<HTTPResponse> *)theResponse;
 -(void)write:(NSString *)theString;
+-(void)addHeader:(NSString*)headerName withValue:(NSString *)value;
 
 @end

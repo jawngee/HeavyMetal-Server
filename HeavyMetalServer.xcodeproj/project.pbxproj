@@ -44,6 +44,10 @@
 		FC60359A118764A900E47401 /* YAMLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603594118764A900E47401 /* YAMLKit.m */; };
 		FC60359B118764A900E47401 /* YKEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603597118764A900E47401 /* YKEmitter.m */; };
 		FC60359C118764A900E47401 /* YKParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603599118764A900E47401 /* YKParser.m */; };
+		FC6036A6118781DB00E47401 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6036A5118781DB00E47401 /* WebKit.framework */; };
+		FC603770118782A500E47401 /* jslint-jscocoa.js in Resources */ = {isa = PBXBuildFile; fileRef = FC60350311875DBA00E47401 /* jslint-jscocoa.js */; };
+		FC603771118782A800E47401 /* class.js in Resources */ = {isa = PBXBuildFile; fileRef = FC6034F711875DBA00E47401 /* class.js */; };
+		FC60378E118783AE00E47401 /* HMHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60378D118783AE00E47401 /* HMHTTPResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +122,9 @@
 		FC603597118764A900E47401 /* YKEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKEmitter.m; sourceTree = "<group>"; };
 		FC603598118764A900E47401 /* YKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKParser.h; sourceTree = "<group>"; };
 		FC603599118764A900E47401 /* YKParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKParser.m; sourceTree = "<group>"; };
+		FC6036A5118781DB00E47401 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FC60378C118783AE00E47401 /* HMHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHTTPResponse.h; sourceTree = "<group>"; };
+		FC60378D118783AE00E47401 /* HMHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHTTPResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +137,7 @@
 				FC6034EA11875D9E00E47401 /* JavaScriptCore.framework in Frameworks */,
 				FC6034EE11875DAA00E47401 /* libcrypto.dylib in Frameworks */,
 				FC60358E1187645B00E47401 /* libyaml.dylib in Frameworks */,
+				FC6036A6118781DB00E47401 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +160,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC6036A5118781DB00E47401 /* WebKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				FC6034E711875D9E00E47401 /* CoreServices.framework */,
 				FC6034E911875D9E00E47401 /* JavaScriptCore.framework */,
@@ -231,6 +240,8 @@
 				FC6034F111875DBA00E47401 /* HMResponse.m */,
 				FC6034F211875DBA00E47401 /* HMRequest.h */,
 				FC6034F311875DBA00E47401 /* HMRequest.m */,
+				FC60378C118783AE00E47401 /* HMHTTPResponse.h */,
+				FC60378D118783AE00E47401 /* HMHTTPResponse.m */,
 			);
 			name = HeavyMetal;
 			sourceTree = "<group>";
@@ -385,6 +396,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC603771118782A800E47401 /* class.js in Resources */,
+				FC603770118782A500E47401 /* jslint-jscocoa.js in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				FC60356911875EB800E47401 /* logo2.png in Resources */,
@@ -427,6 +440,7 @@
 				FC60359A118764A900E47401 /* YAMLKit.m in Sources */,
 				FC60359B118764A900E47401 /* YKEmitter.m in Sources */,
 				FC60359C118764A900E47401 /* YKParser.m in Sources */,
+				FC60378E118783AE00E47401 /* HMHTTPResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

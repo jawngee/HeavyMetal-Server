@@ -18,6 +18,5 @@
 }
 
 -(id)init;
-+(JSCocoa *)jsEngine;
 
 @end

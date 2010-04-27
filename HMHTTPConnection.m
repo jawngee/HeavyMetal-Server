@@ -11,9 +11,12 @@
 #import "HTTPAsyncFileResponse.h"
 
 #import "HMServerApplication.h"
+#import "HMHTTPResponse.h"
 
 #import "HMRequest.h"
 #import "HMResponse.h"
+
+#import "JSCocoa.h"
 
 @implementation HMHTTPConnection
 
@@ -39,11 +42,15 @@
 	HMRequest *req=[[HMRequest alloc] initWithQuery:query];
 	HMResponse *res=[[HMResponse alloc] initWithResponse:nil];
 	
-	[[HMServerApplication jsEngine] setObject:req withName:@"request"];
-	[[HMServerApplication jsEngine] setObject:res withName:@"response"];
-	[[HMServerApplication jsEngine] evalJSFile:[[preferences objectForKey:@"applicationDir"] stringByAppendingString:@"/controllers/hello.js"]];
+	[[JSCocoa sharedController] setObject:req withName:@"request"];
+	[[JSCocoa sharedController] setObject:res withName:@"response"];
+	[[JSCocoa sharedController] evalJSFile:[[preferences objectForKey:@"applicationDir"] stringByAppendingString:@"/controllers/hello.js"]];
 	
-	return [[[HTTPDataResponse alloc] initWithData:res.responseBody] autorelease];
+	HMHTTPResponse *resp=[[[HMHTTPResponse alloc] initWithData:res.responseBody] autorelease];
+	
+	[resp.headers addEntriesFromDictionary:res.headers];
+	
+	return resp;
 }
 
 
