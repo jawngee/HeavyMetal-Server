@@ -9,9 +9,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1858, 315}}";
-			sepNavSelRange = "{436, 0}";
-			sepNavVisRange = "{160, 285}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 735}}";
+			sepNavSelRange = "{709, 0}";
+			sepNavVisRange = "{0, 709}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -29,6 +29,20 @@
 			FC6034DB11875D8800E47401 /* HeavyMetalServer */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					1087,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -36,7 +50,7 @@
 					20,
 					1199,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -86,6 +100,19 @@
 			FC60358511875FF600E47401 /* PBXTextBookmark */ = FC60358511875FF600E47401 /* PBXTextBookmark */;
 			FC6035881187604100E47401 /* PBXTextBookmark */ = FC6035881187604100E47401 /* PBXTextBookmark */;
 			FC60358A1187604100E47401 /* PBXTextBookmark */ = FC60358A1187604100E47401 /* PBXTextBookmark */;
+			FC60358C1187627500E47401 /* PBXTextBookmark */ = FC60358C1187627500E47401 /* PBXTextBookmark */;
+			FC6035921187646A00E47401 /* PBXTextBookmark */ = FC6035921187646A00E47401 /* PBXTextBookmark */;
+			FC6035AE1187650800E47401 /* PBXTextBookmark */ = FC6035AE1187650800E47401 /* PBXTextBookmark */;
+			FC6035CA1187670500E47401 /* PBXTextBookmark */ = FC6035CA1187670500E47401 /* PBXTextBookmark */;
+			FC6035CB1187670500E47401 /* PBXTextBookmark */ = FC6035CB1187670500E47401 /* PBXTextBookmark */;
+			FC6035CC1187670500E47401 /* PBXTextBookmark */ = FC6035CC1187670500E47401 /* PBXTextBookmark */;
+			FC6035CD1187670500E47401 /* PBXTextBookmark */ = FC6035CD1187670500E47401 /* PBXTextBookmark */;
+			FC6035D6118767C300E47401 /* PBXTextBookmark */ = FC6035D6118767C300E47401 /* PBXTextBookmark */;
+			FC6035D7118767C300E47401 /* PBXTextBookmark */ = FC6035D7118767C300E47401 /* PBXTextBookmark */;
+			FC6035D8118767C300E47401 /* PBXTextBookmark */ = FC6035D8118767C300E47401 /* PBXTextBookmark */;
+			FC6035D9118767C300E47401 /* PBXTextBookmark */ = FC6035D9118767C300E47401 /* PBXTextBookmark */;
+			FC6035DF118767C300E47401 /* PBXTextBookmark */ = FC6035DF118767C300E47401 /* PBXTextBookmark */;
+			FC6035E3118767ED00E47401 /* PBXTextBookmark */ = FC6035E3118767ED00E47401 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FC6034EB11875D9F00E47401 /* Source Control */;
 		userBuildSettings = {
@@ -152,9 +179,9 @@
 	};
 	FC60353911875DCB00E47401 /* HMHTTPConnection.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1377, 735}}";
-			sepNavSelRange = "{439, 0}";
-			sepNavVisRange = "{0, 1472}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 810}}";
+			sepNavSelRange = "{1476, 0}";
+			sepNavVisRange = "{0, 1470}";
 		};
 	};
 	FC60353B11875E0700E47401 /* HMServerApplication.h */ = {
@@ -166,9 +193,9 @@
 	};
 	FC60353C11875E0700E47401 /* HMServerApplication.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1377, 855}}";
-			sepNavSelRange = "{492, 0}";
-			sepNavVisRange = "{85, 874}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 870}}";
+			sepNavSelRange = "{673, 0}";
+			sepNavVisRange = "{180, 833}";
 		};
 	};
 	FC60354611875E6100E47401 /* PBXTextBookmark */ = {
@@ -275,7 +302,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -285,7 +312,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -305,7 +332,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 160;
@@ -315,7 +342,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -325,7 +352,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -335,7 +362,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 160;
@@ -345,7 +372,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 445;
 		vrLoc = 0;
@@ -375,7 +402,7 @@
 		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
 		name = "HMHTTPConnection.m: 53";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1871;
 		vrLoc = 346;
@@ -385,7 +412,7 @@
 		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
 		name = "HMHTTPConnection.m: 53";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1767;
 		vrLoc = 346;
@@ -395,7 +422,7 @@
 		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
 		name = "HMHTTPConnection.m: 53";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 346;
@@ -423,7 +450,7 @@
 		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
 		name = "HMHTTPConnection.m: 53";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 346;
@@ -433,7 +460,7 @@
 		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
 		name = "HMHTTPConnection.m: 53";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 1789;
 		vrLoc = 346;
@@ -443,7 +470,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
 		name = "HeavyMetalServerAppDelegate.m: 17";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 160;
@@ -453,7 +480,7 @@
 		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
 		name = "HMHTTPConnection.m: 53";
 		rLen = 0;
-		rLoc = 1191;
+		rLoc = 1263;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 439;
@@ -496,6 +523,136 @@
 		rLoc = 439;
 		rType = 0;
 		vrLen = 1472;
+		vrLoc = 0;
+	};
+	FC60358C1187627500E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 22";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 0;
+	};
+	FC6035921187646A00E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 9";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 0;
+	};
+	FC6035AE1187650800E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 9";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 0;
+	};
+	FC6035CA1187670500E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 0;
+	};
+	FC6035CB1187670500E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 26";
+		rLen = 44;
+		rLoc = 629;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 85;
+	};
+	FC6035CC1187670500E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
+		name = "HeavyMetalServerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 494;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	FC6035CD1187670500E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
+		name = "HeavyMetalServerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 553;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 0;
+	};
+	FC6035D6118767C300E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */;
+		name = "HeavyMetalServerAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 0;
+	};
+	FC6035D7118767C300E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 27";
+		rLen = 0;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 180;
+	};
+	FC6035D8118767C300E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 19";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 0;
+	};
+	FC6035D9118767C300E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 44";
+		rLen = 0;
+		rLoc = 1476;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 0;
+	};
+	FC6035DF118767C300E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 44";
+		rLen = 0;
+		rLoc = 1476;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 0;
+	};
+	FC6035E3118767ED00E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 44";
+		rLen = 0;
+		rLoc = 1476;
+		rType = 0;
+		vrLen = 1470;
 		vrLoc = 0;
 	};
 }

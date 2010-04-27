@@ -14,6 +14,13 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
+	
+	NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+						  [@"~/DropBox/Projects/jssites/" stringByExpandingTildeInPath] ,@"applicationDir",
+						  nil ]; // terminate the list
+	
+	[[NSUserDefaults standardUserDefaults] registerDefaults:dict];	
+	
 	app=[[HMServerApplication alloc] init];
 }
 

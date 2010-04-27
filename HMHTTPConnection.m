@@ -34,12 +34,14 @@
 		}
 	}
 	
+	NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+	
 	HMRequest *req=[[HMRequest alloc] initWithQuery:query];
 	HMResponse *res=[[HMResponse alloc] initWithResponse:nil];
 	
 	[[HMServerApplication jsEngine] setObject:req withName:@"request"];
 	[[HMServerApplication jsEngine] setObject:res withName:@"response"];
-	[[HMServerApplication jsEngine] evalJSFile:[@"~/DropBox/Projects/jssites/hello.js" stringByExpandingTildeInPath]];
+	[[HMServerApplication jsEngine] evalJSFile:[[preferences objectForKey:@"applicationDir"] stringByAppendingString:@"/controllers/hello.js"]];
 	
 	return [[[HTTPDataResponse alloc] initWithData:res.responseBody] autorelease];
 }

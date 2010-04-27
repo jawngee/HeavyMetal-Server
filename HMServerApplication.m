@@ -23,7 +23,8 @@ static JSCocoa *jsEngine=nil;
 		[httpServer setPort:8181];
 		[httpServer setConnectionClass:[HMHTTPConnection class]];
 		
-		[httpServer setDocumentRoot:[NSURL fileURLWithPath:[@"~/DropBox/Projects/jssites/" stringByExpandingTildeInPath]]];
+		NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+		[httpServer setDocumentRoot:[NSURL fileURLWithPath:[preferences objectForKey:@"applicationDir"]]];
 		
 		NSError *error;
 		BOOL success = [httpServer start:&error];

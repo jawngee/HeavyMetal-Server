@@ -40,6 +40,10 @@
 		FC60353A11875DCB00E47401 /* HMHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */; };
 		FC60353D11875E0700E47401 /* HMServerApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60353C11875E0700E47401 /* HMServerApplication.m */; };
 		FC60356911875EB800E47401 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC60356811875EB800E47401 /* logo2.png */; };
+		FC60358E1187645B00E47401 /* libyaml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC60358D1187645B00E47401 /* libyaml.dylib */; };
+		FC60359A118764A900E47401 /* YAMLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603594118764A900E47401 /* YAMLKit.m */; };
+		FC60359B118764A900E47401 /* YKEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603597118764A900E47401 /* YKEmitter.m */; };
+		FC60359C118764A900E47401 /* YKParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603599118764A900E47401 /* YKParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +110,14 @@
 		FC60353B11875E0700E47401 /* HMServerApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMServerApplication.h; sourceTree = "<group>"; };
 		FC60353C11875E0700E47401 /* HMServerApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMServerApplication.m; sourceTree = "<group>"; };
 		FC60356811875EB800E47401 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		FC60358D1187645B00E47401 /* libyaml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libyaml.dylib; path = usr/local/lib/libyaml.dylib; sourceTree = SDKROOT; };
+		FC603593118764A900E47401 /* YAMLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLKit.h; sourceTree = "<group>"; };
+		FC603594118764A900E47401 /* YAMLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMLKit.m; sourceTree = "<group>"; };
+		FC603595118764A900E47401 /* YKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKConstants.h; sourceTree = "<group>"; };
+		FC603596118764A900E47401 /* YKEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKEmitter.h; sourceTree = "<group>"; };
+		FC603597118764A900E47401 /* YKEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKEmitter.m; sourceTree = "<group>"; };
+		FC603598118764A900E47401 /* YKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKParser.h; sourceTree = "<group>"; };
+		FC603599118764A900E47401 /* YKParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,7 @@
 				FC6034E811875D9E00E47401 /* CoreServices.framework in Frameworks */,
 				FC6034EA11875D9E00E47401 /* JavaScriptCore.framework in Frameworks */,
 				FC6034EE11875DAA00E47401 /* libcrypto.dylib in Frameworks */,
+				FC60358E1187645B00E47401 /* libyaml.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +139,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC6035911187646600E47401 /* YAML */,
 				FC60350411875DBA00E47401 /* HTTP */,
 				FC6034F411875DBA00E47401 /* JSCocoa */,
 				FC6034EF11875DBA00E47401 /* HeavyMetal */,
@@ -142,6 +156,7 @@
 				FC6034E711875D9E00E47401 /* CoreServices.framework */,
 				FC6034E911875D9E00E47401 /* JavaScriptCore.framework */,
 				FC6034ED11875DAA00E47401 /* libcrypto.dylib */,
+				FC60358D1187645B00E47401 /* libyaml.dylib */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -313,6 +328,20 @@
 			name = Advanced;
 			sourceTree = "<group>";
 		};
+		FC6035911187646600E47401 /* YAML */ = {
+			isa = PBXGroup;
+			children = (
+				FC603593118764A900E47401 /* YAMLKit.h */,
+				FC603594118764A900E47401 /* YAMLKit.m */,
+				FC603595118764A900E47401 /* YKConstants.h */,
+				FC603596118764A900E47401 /* YKEmitter.h */,
+				FC603597118764A900E47401 /* YKEmitter.m */,
+				FC603598118764A900E47401 /* YKParser.h */,
+				FC603599118764A900E47401 /* YKParser.m */,
+			);
+			name = YAML;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -395,6 +424,9 @@
 				FC60353711875DBA00E47401 /* ThreadPerConnectionServer.m in Sources */,
 				FC60353A11875DCB00E47401 /* HMHTTPConnection.m in Sources */,
 				FC60353D11875E0700E47401 /* HMServerApplication.m in Sources */,
+				FC60359A118764A900E47401 /* YAMLKit.m in Sources */,
+				FC60359B118764A900E47401 /* YKEmitter.m in Sources */,
+				FC60359C118764A900E47401 /* YKParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +491,8 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lffi";
 				PREBINDING = NO;
