@@ -24,4 +24,24 @@
 	app=[[HMServerApplication alloc] init];
 }
 
+-(IBAction)setApplicationPath:(id)sender
+{
+	NSOpenPanel *save = [NSOpenPanel openPanel];
+	
+	[save setAllowsMultipleSelection:NO];
+	[save setCanChooseFiles:NO];
+	[save setCanChooseDirectories:YES];
+	[save setCanCreateDirectories:YES];
+	
+	NSInteger result=[save runModal];
+	
+	if (result==NSOKButton)
+	{
+		//		[pathField setStringValue:[save filename]];
+		NSUserDefaults *preferences = [[NSUserDefaults standardUserDefaults] retain];
+		[preferences setObject:[save filename] forKey:@"applicationDir"];
+		[preferences synchronize];
+	}
+}
+
 @end
