@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FC6034E811875D9E00E47401 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6034E711875D9E00E47401 /* CoreServices.framework */; };
+		FC6034EA11875D9E00E47401 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6034E911875D9E00E47401 /* JavaScriptCore.framework */; };
+		FC6034EE11875DAA00E47401 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6034ED11875DAA00E47401 /* libcrypto.dylib */; };
+		FC60352211875DBA00E47401 /* HMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6034F111875DBA00E47401 /* HMResponse.m */; };
+		FC60352311875DBA00E47401 /* HMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6034F311875DBA00E47401 /* HMRequest.m */; };
+		FC60352411875DBA00E47401 /* BridgeSupportController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6034F611875DBA00E47401 /* BridgeSupportController.m */; };
+		FC60352511875DBA00E47401 /* class.js in Sources */ = {isa = PBXBuildFile; fileRef = FC6034F711875DBA00E47401 /* class.js */; };
+		FC60352611875DBA00E47401 /* JSCocoaController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6034FA11875DBA00E47401 /* JSCocoaController.m */; };
+		FC60352711875DBA00E47401 /* JSCocoaFFIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6034FC11875DBA00E47401 /* JSCocoaFFIArgument.m */; };
+		FC60352811875DBA00E47401 /* JSCocoaFFIClosure.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6034FE11875DBA00E47401 /* JSCocoaFFIClosure.m */; };
+		FC60352911875DBA00E47401 /* JSCocoaLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60350011875DBA00E47401 /* JSCocoaLib.m */; };
+		FC60352A11875DBA00E47401 /* JSCocoaPrivateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60350211875DBA00E47401 /* JSCocoaPrivateObject.m */; };
+		FC60352B11875DBA00E47401 /* jslint-jscocoa.js in Sources */ = {isa = PBXBuildFile; fileRef = FC60350311875DBA00E47401 /* jslint-jscocoa.js */; };
+		FC60352C11875DBA00E47401 /* SSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60350711875DBA00E47401 /* SSCrypto.m */; };
+		FC60352D11875DBA00E47401 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60350A11875DBA00E47401 /* DDNumber.m */; };
+		FC60352E11875DBA00E47401 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60350C11875DBA00E47401 /* DDRange.m */; };
+		FC60352F11875DBA00E47401 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60350E11875DBA00E47401 /* DDData.m */; };
+		FC60353011875DBA00E47401 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60351111875DBA00E47401 /* AsyncSocket.m */; };
+		FC60353111875DBA00E47401 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60351511875DBA00E47401 /* HTTPAsyncFileResponse.m */; };
+		FC60353211875DBA00E47401 /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60351711875DBA00E47401 /* ThreadPoolServer.m */; };
+		FC60353311875DBA00E47401 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60351A11875DBA00E47401 /* HTTPAuthenticationRequest.m */; };
+		FC60353411875DBA00E47401 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60351C11875DBA00E47401 /* HTTPServer.m */; };
+		FC60353511875DBA00E47401 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60351E11875DBA00E47401 /* HTTPConnection.m */; };
+		FC60353611875DBA00E47401 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60352011875DBA00E47401 /* HTTPResponse.m */; };
+		FC60353711875DBA00E47401 /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60352111875DBA00E47401 /* ThreadPerConnectionServer.m */; };
+		FC60353A11875DCB00E47401 /* HMHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */; };
+		FC60353D11875E0700E47401 /* HMServerApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60353C11875E0700E47401 /* HMServerApplication.m */; };
+		FC60356911875EB800E47401 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC60356811875EB800E47401 /* logo2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyMetalServerAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeavyMetalServerAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* HeavyMetalServer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyMetalServer_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* HeavyMetalServer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HeavyMetalServer-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* HeavyMetalServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeavyMetalServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6034E711875D9E00E47401 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		FC6034E911875D9E00E47401 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FC6034ED11875DAA00E47401 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		FC6034F011875DBA00E47401 /* HMResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMResponse.h; sourceTree = "<group>"; };
+		FC6034F111875DBA00E47401 /* HMResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMResponse.m; sourceTree = "<group>"; };
+		FC6034F211875DBA00E47401 /* HMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRequest.h; sourceTree = "<group>"; };
+		FC6034F311875DBA00E47401 /* HMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRequest.m; sourceTree = "<group>"; };
+		FC6034F511875DBA00E47401 /* BridgeSupportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeSupportController.h; sourceTree = "<group>"; };
+		FC6034F611875DBA00E47401 /* BridgeSupportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeSupportController.m; sourceTree = "<group>"; };
+		FC6034F711875DBA00E47401 /* class.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = class.js; sourceTree = "<group>"; };
+		FC6034F811875DBA00E47401 /* JSCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoa.h; sourceTree = "<group>"; };
+		FC6034F911875DBA00E47401 /* JSCocoaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaController.h; sourceTree = "<group>"; };
+		FC6034FA11875DBA00E47401 /* JSCocoaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaController.m; sourceTree = "<group>"; };
+		FC6034FB11875DBA00E47401 /* JSCocoaFFIArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaFFIArgument.h; sourceTree = "<group>"; };
+		FC6034FC11875DBA00E47401 /* JSCocoaFFIArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaFFIArgument.m; sourceTree = "<group>"; };
+		FC6034FD11875DBA00E47401 /* JSCocoaFFIClosure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaFFIClosure.h; sourceTree = "<group>"; };
+		FC6034FE11875DBA00E47401 /* JSCocoaFFIClosure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaFFIClosure.m; sourceTree = "<group>"; };
+		FC6034FF11875DBA00E47401 /* JSCocoaLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaLib.h; sourceTree = "<group>"; };
+		FC60350011875DBA00E47401 /* JSCocoaLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaLib.m; sourceTree = "<group>"; };
+		FC60350111875DBA00E47401 /* JSCocoaPrivateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCocoaPrivateObject.h; sourceTree = "<group>"; };
+		FC60350211875DBA00E47401 /* JSCocoaPrivateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCocoaPrivateObject.m; sourceTree = "<group>"; };
+		FC60350311875DBA00E47401 /* jslint-jscocoa.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jslint-jscocoa.js"; sourceTree = "<group>"; };
+		FC60350611875DBA00E47401 /* SSCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCrypto.h; sourceTree = "<group>"; };
+		FC60350711875DBA00E47401 /* SSCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCrypto.m; sourceTree = "<group>"; };
+		FC60350911875DBA00E47401 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		FC60350A11875DBA00E47401 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		FC60350B11875DBA00E47401 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		FC60350C11875DBA00E47401 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		FC60350D11875DBA00E47401 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		FC60350E11875DBA00E47401 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		FC60351011875DBA00E47401 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		FC60351111875DBA00E47401 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		FC60351411875DBA00E47401 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		FC60351511875DBA00E47401 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		FC60351611875DBA00E47401 /* ThreadPoolServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPoolServer.h; sourceTree = "<group>"; };
+		FC60351711875DBA00E47401 /* ThreadPoolServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPoolServer.m; sourceTree = "<group>"; };
+		FC60351811875DBA00E47401 /* ThreadPerConnectionServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPerConnectionServer.h; sourceTree = "<group>"; };
+		FC60351911875DBA00E47401 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		FC60351A11875DBA00E47401 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		FC60351B11875DBA00E47401 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		FC60351C11875DBA00E47401 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		FC60351D11875DBA00E47401 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		FC60351E11875DBA00E47401 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		FC60351F11875DBA00E47401 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		FC60352011875DBA00E47401 /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
+		FC60352111875DBA00E47401 /* ThreadPerConnectionServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPerConnectionServer.m; sourceTree = "<group>"; };
+		FC60353811875DCB00E47401 /* HMHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHTTPConnection.h; sourceTree = "<group>"; };
+		FC60353911875DCB00E47401 /* HMHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHTTPConnection.m; sourceTree = "<group>"; };
+		FC60353B11875E0700E47401 /* HMServerApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMServerApplication.h; sourceTree = "<group>"; };
+		FC60353C11875E0700E47401 /* HMServerApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMServerApplication.m; sourceTree = "<group>"; };
+		FC60356811875EB800E47401 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				FC6034E811875D9E00E47401 /* CoreServices.framework in Frameworks */,
+				FC6034EA11875D9E00E47401 /* JavaScriptCore.framework in Frameworks */,
+				FC6034EE11875DAA00E47401 /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC60350411875DBA00E47401 /* HTTP */,
+				FC6034F411875DBA00E47401 /* JSCocoa */,
+				FC6034EF11875DBA00E47401 /* HeavyMetal */,
+				256AC3D80F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				FC6034E711875D9E00E47401 /* CoreServices.framework */,
+				FC6034E911875D9E00E47401 /* JavaScriptCore.framework */,
+				FC6034ED11875DAA00E47401 /* libcrypto.dylib */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* HeavyMetalServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HeavyMetalServer */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = HeavyMetalServer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* HeavyMetalServer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC60356811875EB800E47401 /* logo2.png */,
+				8D1107310486CEB800E47090 /* HeavyMetalServer-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC6034EF11875DBA00E47401 /* HeavyMetal */ = {
+			isa = PBXGroup;
+			children = (
+				FC60353B11875E0700E47401 /* HMServerApplication.h */,
+				FC60353C11875E0700E47401 /* HMServerApplication.m */,
+				FC60353811875DCB00E47401 /* HMHTTPConnection.h */,
+				FC60353911875DCB00E47401 /* HMHTTPConnection.m */,
+				FC6034F011875DBA00E47401 /* HMResponse.h */,
+				FC6034F111875DBA00E47401 /* HMResponse.m */,
+				FC6034F211875DBA00E47401 /* HMRequest.h */,
+				FC6034F311875DBA00E47401 /* HMRequest.m */,
+			);
+			name = HeavyMetal;
+			sourceTree = "<group>";
+		};
+		FC6034F411875DBA00E47401 /* JSCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				FC6034F511875DBA00E47401 /* BridgeSupportController.h */,
+				FC6034F611875DBA00E47401 /* BridgeSupportController.m */,
+				FC6034F711875DBA00E47401 /* class.js */,
+				FC6034F811875DBA00E47401 /* JSCocoa.h */,
+				FC6034F911875DBA00E47401 /* JSCocoaController.h */,
+				FC6034FA11875DBA00E47401 /* JSCocoaController.m */,
+				FC6034FB11875DBA00E47401 /* JSCocoaFFIArgument.h */,
+				FC6034FC11875DBA00E47401 /* JSCocoaFFIArgument.m */,
+				FC6034FD11875DBA00E47401 /* JSCocoaFFIClosure.h */,
+				FC6034FE11875DBA00E47401 /* JSCocoaFFIClosure.m */,
+				FC6034FF11875DBA00E47401 /* JSCocoaLib.h */,
+				FC60350011875DBA00E47401 /* JSCocoaLib.m */,
+				FC60350111875DBA00E47401 /* JSCocoaPrivateObject.h */,
+				FC60350211875DBA00E47401 /* JSCocoaPrivateObject.m */,
+				FC60350311875DBA00E47401 /* jslint-jscocoa.js */,
+			);
+			path = JSCocoa;
+			sourceTree = "<group>";
+		};
+		FC60350411875DBA00E47401 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC60351211875DBA00E47401 /* HTTP */,
+				FC60350F11875DBA00E47401 /* TCP */,
+				FC60350811875DBA00E47401 /* Categories */,
+				FC60350511875DBA00E47401 /* SSCrypto */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		FC60350511875DBA00E47401 /* SSCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				FC60350611875DBA00E47401 /* SSCrypto.h */,
+				FC60350711875DBA00E47401 /* SSCrypto.m */,
+			);
+			name = SSCrypto;
+			sourceTree = "<group>";
+		};
+		FC60350811875DBA00E47401 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FC60350911875DBA00E47401 /* DDNumber.h */,
+				FC60350A11875DBA00E47401 /* DDNumber.m */,
+				FC60350B11875DBA00E47401 /* DDRange.h */,
+				FC60350C11875DBA00E47401 /* DDRange.m */,
+				FC60350D11875DBA00E47401 /* DDData.h */,
+				FC60350E11875DBA00E47401 /* DDData.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FC60350F11875DBA00E47401 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				FC60351011875DBA00E47401 /* AsyncSocket.h */,
+				FC60351111875DBA00E47401 /* AsyncSocket.m */,
+			);
+			name = TCP;
+			sourceTree = "<group>";
+		};
+		FC60351211875DBA00E47401 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC60351611875DBA00E47401 /* ThreadPoolServer.h */,
+				FC60351711875DBA00E47401 /* ThreadPoolServer.m */,
+				FC60351811875DBA00E47401 /* ThreadPerConnectionServer.h */,
+				FC60351911875DBA00E47401 /* HTTPAuthenticationRequest.h */,
+				FC60351A11875DBA00E47401 /* HTTPAuthenticationRequest.m */,
+				FC60351B11875DBA00E47401 /* HTTPServer.h */,
+				FC60351C11875DBA00E47401 /* HTTPServer.m */,
+				FC60351D11875DBA00E47401 /* HTTPConnection.h */,
+				FC60351E11875DBA00E47401 /* HTTPConnection.m */,
+				FC60351F11875DBA00E47401 /* HTTPResponse.h */,
+				FC60352011875DBA00E47401 /* HTTPResponse.m */,
+				FC60352111875DBA00E47401 /* ThreadPerConnectionServer.m */,
+				FC60351311875DBA00E47401 /* Advanced */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		FC60351311875DBA00E47401 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				FC60351411875DBA00E47401 /* HTTPAsyncFileResponse.h */,
+				FC60351511875DBA00E47401 /* HTTPAsyncFileResponse.m */,
+			);
+			name = Advanced;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* HeavyMetalServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HeavyMetalServer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeavyMetalServer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = HeavyMetalServer;
+			productReference = 8D1107320486CEB800E47090 /* HeavyMetalServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HeavyMetalServer" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HeavyMetalServer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* HeavyMetalServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FC60356911875EB800E47401 /* logo2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* HeavyMetalServerAppDelegate.m in Sources */,
+				FC60352211875DBA00E47401 /* HMResponse.m in Sources */,
+				FC60352311875DBA00E47401 /* HMRequest.m in Sources */,
+				FC60352411875DBA00E47401 /* BridgeSupportController.m in Sources */,
+				FC60352511875DBA00E47401 /* class.js in Sources */,
+				FC60352611875DBA00E47401 /* JSCocoaController.m in Sources */,
+				FC60352711875DBA00E47401 /* JSCocoaFFIArgument.m in Sources */,
+				FC60352811875DBA00E47401 /* JSCocoaFFIClosure.m in Sources */,
+				FC60352911875DBA00E47401 /* JSCocoaLib.m in Sources */,
+				FC60352A11875DBA00E47401 /* JSCocoaPrivateObject.m in Sources */,
+				FC60352B11875DBA00E47401 /* jslint-jscocoa.js in Sources */,
+				FC60352C11875DBA00E47401 /* SSCrypto.m in Sources */,
+				FC60352D11875DBA00E47401 /* DDNumber.m in Sources */,
+				FC60352E11875DBA00E47401 /* DDRange.m in Sources */,
+				FC60352F11875DBA00E47401 /* DDData.m in Sources */,
+				FC60353011875DBA00E47401 /* AsyncSocket.m in Sources */,
+				FC60353111875DBA00E47401 /* HTTPAsyncFileResponse.m in Sources */,
+				FC60353211875DBA00E47401 /* ThreadPoolServer.m in Sources */,
+				FC60353311875DBA00E47401 /* HTTPAuthenticationRequest.m in Sources */,
+				FC60353411875DBA00E47401 /* HTTPServer.m in Sources */,
+				FC60353511875DBA00E47401 /* HTTPConnection.m in Sources */,
+				FC60353611875DBA00E47401 /* HTTPResponse.m in Sources */,
+				FC60353711875DBA00E47401 /* ThreadPerConnectionServer.m in Sources */,
+				FC60353A11875DCB00E47401 /* HMHTTPConnection.m in Sources */,
+				FC60353D11875E0700E47401 /* HMServerApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HeavyMetalServer_Prefix.pch;
+				INFOPLIST_FILE = "HeavyMetalServer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = HeavyMetalServer;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HeavyMetalServer_Prefix.pch;
+				INFOPLIST_FILE = "HeavyMetalServer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = HeavyMetalServer;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lffi";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HeavyMetalServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HeavyMetalServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
