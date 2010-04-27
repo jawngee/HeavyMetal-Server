@@ -27,7 +27,7 @@
 
 -(void)write:(NSString *)theString
 {
-	[responseBody appendData:[theString dataUsingEncoding:NSUTF16BigEndianStringEncoding]];
+	[responseBody appendData:[theString dataUsingEncoding:NSUTF8StringEncoding]];
 }
 
 

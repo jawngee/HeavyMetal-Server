@@ -255,6 +255,10 @@
 			FC6037C91187868700E47401 /* PBXTextBookmark */ = FC6037C91187868700E47401 /* PBXTextBookmark */;
 			FC6037CA1187868700E47401 /* PBXTextBookmark */ = FC6037CA1187868700E47401 /* PBXTextBookmark */;
 			FC6037CB1187868800E47401 /* PBXTextBookmark */ = FC6037CB1187868800E47401 /* PBXTextBookmark */;
+			FC6037D311878A2700E47401 /* PBXTextBookmark */ = FC6037D311878A2700E47401 /* PBXTextBookmark */;
+			FC6037D411878A2700E47401 /* PBXTextBookmark */ = FC6037D411878A2700E47401 /* PBXTextBookmark */;
+			FC6037D711878A3000E47401 /* PBXTextBookmark */ = FC6037D711878A3000E47401 /* PBXTextBookmark */;
+			FC6037D811878A3100E47401 /* PBXTextBookmark */ = FC6037D811878A3100E47401 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FC6034EB11875D9F00E47401 /* Source Control */;
 		userBuildSettings = {
@@ -273,7 +277,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -322,8 +326,8 @@
 	FC6034F111875DBA00E47401 /* HMResponse.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1377, 735}}";
-			sepNavSelRange = "{766, 0}";
-			sepNavVisRange = "{3, 838}";
+			sepNavSelRange = "{594, 0}";
+			sepNavVisRange = "{3, 828}";
 		};
 	};
 	FC6034F211875DBA00E47401 /* HMRequest.h */ = {
@@ -1609,7 +1613,7 @@
 		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
 		name = "HMResponse.m: 29";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 0;
@@ -1619,7 +1623,7 @@
 		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
 		name = "HMResponse.m: 29";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 0;
@@ -1639,7 +1643,7 @@
 		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
 		name = "HMResponse.m: 29";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 474;
 		vrLoc = 139;
@@ -1976,7 +1980,7 @@
 		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
 		name = "HMResponse.m: 35";
 		rLen = 0;
-		rLoc = 681;
+		rLoc = 671;
 		rType = 0;
 		vrLen = 451;
 		vrLoc = 315;
@@ -2053,7 +2057,7 @@
 		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
 		name = "HMResponse.m: 41";
 		rLen = 0;
-		rLoc = 766;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 838;
 		vrLoc = 3;
@@ -2063,9 +2067,49 @@
 		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
 		name = "HMResponse.m: 41";
 		rLen = 0;
-		rLoc = 766;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 838;
+		vrLoc = 3;
+	};
+	FC6037D311878A2700E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60351E11875DBA00E47401 /* HTTPConnection.m */;
+		name = "HTTPConnection.m: 1478";
+		rLen = 0;
+		rLoc = 52997;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 52576;
+	};
+	FC6037D411878A2700E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
+		name = "HMResponse.m: 21";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 315;
+	};
+	FC6037D711878A3000E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
+		name = "HMResponse.m: 30";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 3;
+	};
+	FC6037D811878A3100E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC6034F111875DBA00E47401 /* HMResponse.m */;
+		name = "HMResponse.m: 30";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 828;
 		vrLoc = 3;
 	};
 }
