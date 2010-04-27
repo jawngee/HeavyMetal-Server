@@ -34,7 +34,8 @@ static JSCocoa *jsEngine=nil;
 			NSLog(@"Error starting HTTP Server: %@", error);
 		}
 		
-		jsEngine = [JSCocoa new];
+		[JSCocoa allocAutoreleasePool];
+		
 		
 	}
 	
@@ -51,7 +52,7 @@ static JSCocoa *jsEngine=nil;
 
 +(JSCocoa *)jsEngine
 {
-	return jsEngine;
+	return [JSCocoa sharedController];
 }
 
 @end

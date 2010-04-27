@@ -113,6 +113,15 @@
 			FC6035D9118767C300E47401 /* PBXTextBookmark */ = FC6035D9118767C300E47401 /* PBXTextBookmark */;
 			FC6035DF118767C300E47401 /* PBXTextBookmark */ = FC6035DF118767C300E47401 /* PBXTextBookmark */;
 			FC6035E3118767ED00E47401 /* PBXTextBookmark */ = FC6035E3118767ED00E47401 /* PBXTextBookmark */;
+			FC6035E5118769C600E47401 /* PBXTextBookmark */ = FC6035E5118769C600E47401 /* PBXTextBookmark */;
+			FC6035E8118769D200E47401 /* PBXTextBookmark */ = FC6035E8118769D200E47401 /* PBXTextBookmark */;
+			FC6035E9118769D200E47401 /* PBXTextBookmark */ = FC6035E9118769D200E47401 /* PBXTextBookmark */;
+			FC6035EA118769D200E47401 /* PBXTextBookmark */ = FC6035EA118769D200E47401 /* PBXTextBookmark */;
+			FC6035EB118769D200E47401 /* PBXTextBookmark */ = FC6035EB118769D200E47401 /* PBXTextBookmark */;
+			FC6035FC11876A5900E47401 /* PBXTextBookmark */ = FC6035FC11876A5900E47401 /* PBXTextBookmark */;
+			FC6035FD11876A5900E47401 /* PBXTextBookmark */ = FC6035FD11876A5900E47401 /* PBXTextBookmark */;
+			FC60360211876A7800E47401 /* PBXTextBookmark */ = FC60360211876A7800E47401 /* PBXTextBookmark */;
+			FC60360311876A7800E47401 /* PBXTextBookmark */ = FC60360311876A7800E47401 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FC6034EB11875D9F00E47401 /* Source Control */;
 		userBuildSettings = {
@@ -179,9 +188,9 @@
 	};
 	FC60353911875DCB00E47401 /* HMHTTPConnection.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1377, 810}}";
-			sepNavSelRange = "{1476, 0}";
-			sepNavVisRange = "{0, 1470}";
+			sepNavIntBoundsRect = "{{0, 0}, {1858, 765}}";
+			sepNavSelRange = "{1249, 0}";
+			sepNavVisRange = "{0, 743}";
 		};
 	};
 	FC60353B11875E0700E47401 /* HMServerApplication.h */ = {
@@ -193,9 +202,9 @@
 	};
 	FC60353C11875E0700E47401 /* HMServerApplication.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1377, 870}}";
-			sepNavSelRange = "{673, 0}";
-			sepNavVisRange = "{180, 833}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 885}}";
+			sepNavSelRange = "{1030, 0}";
+			sepNavVisRange = "{144, 890}";
 		};
 	};
 	FC60354611875E6100E47401 /* PBXTextBookmark */ = {
@@ -654,5 +663,95 @@
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 0;
+	};
+	FC6035E5118769C600E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 42";
+		rLen = 0;
+		rLoc = 1249;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 0;
+	};
+	FC6035E8118769D200E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 42";
+		rLen = 0;
+		rLoc = 1249;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 0;
+	};
+	FC6035E9118769D200E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 27";
+		rLen = 0;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 144;
+	};
+	FC6035EA118769D200E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 38";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 144;
+	};
+	FC6035EB118769D200E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 38";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 144;
+	};
+	FC6035FC11876A5900E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353911875DCB00E47401 /* HMHTTPConnection.m */;
+		name = "HMHTTPConnection.m: 42";
+		rLen = 0;
+		rLoc = 1249;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 0;
+	};
+	FC6035FD11876A5900E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 38";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 367;
+	};
+	FC60360211876A7800E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 55";
+		rLen = 0;
+		rLoc = 1030;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 144;
+	};
+	FC60360311876A7800E47401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC60353C11875E0700E47401 /* HMServerApplication.m */;
+		name = "HMServerApplication.m: 55";
+		rLen = 0;
+		rLoc = 1030;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 144;
 	};
 }
